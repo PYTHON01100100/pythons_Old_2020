@@ -1,3 +1,5 @@
+#PythonTutorial : https://github.com/aabouissa/PythonTutorial
+#PythonTutorial : https://github.com/hussien89aa/PythonTutorial
 # Harvard CS50 – Full Computer Science University Course : https://youtu.be/8mAITcNt710 
 # Harvard CS50 (2023) – Full Computer Science University Course  : https://youtu.be/LfaMVlDaQ24
 #   Python from Beginner to Master : https://youtu.be/rfscVS0vtbw?list=PLWKjhJtqVAblfum5WiQblKPwIbqYXkDoC

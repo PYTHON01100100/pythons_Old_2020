@@ -29,8 +29,11 @@
 # Algorithm Academy: https://youtube.com/playlist?list=PLfDx4cQoUNOazcliAXXivOrg9GiAVuoQg&si=-YkAZBLCsGslpVon
 #  Barmej : https://youtube.com/playlist?list=PLkIliLHi5M4IOMRr-VunZlxiRmix0vIvY&si=q8oth6MNDAk6Ut7F
 # Distributed-System-Python : https://github.com/Asabeneh/Distributed-System-Python
-#
-#
-#
-#
-#
+# Asabeneh : https://github.com/Asabeneh/Python-Crash-Course
+# Asabeneh : https://github.com/Asabeneh/Introduction-to-Programming-using-Python
+#  aabouissa : https://github.com/aabouissa/pythonCodes
+# alzaabi98 : https://github.com/alzaabi98/python-basics 
+#  Asabeneh : https://github.com/Asabeneh/python-lesson-Dec-2020
+# Asabeneh : https://github.com/Asabeneh/Python-for-Everyone
+# TheAlgorithms : https://github.com/TheAlgorithms/Python
+# : 

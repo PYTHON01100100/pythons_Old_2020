@@ -1,0 +1,33 @@
+import mysql.connector
+import hashlib
+
+mydb = mysql.connector.connect(
+  host = "t",
+  user = "",
+  password = "",
+  database = "customers" # you must be sure about data base
+)
+
+#python conn.py
+#rightclick then open ter
+
+
+mycursor = mydb.cursor()
+
+Email =  "test@gmail.com "
+password = "Abdulrahman_snake_link_2b9s_0597798740_mario_0597"
+Fullname = "Ali Ahamed"
+PhoneNumber = "0530432432"
+
+password_encrypt = hashlib.md5(password.encode())
+
+sql = "INSERT INTO accounts (Email, password, Fullname, PhoneNumber) VALUES (%s, %s, %s, %s)"
+val = [
+  (Email, password_encrypt.hexdigest(), Fullname, PhoneNumber),
+]
+
+mycursor.executemany(sql, val)
+
+mydb.commit()
+
+print(mycursor.rowcount, "was inserted.") 

@@ -1,0 +1,21 @@
+import mysql.connector
+
+mydb = mysql.connector.connect(
+  host = "",
+  user = "",
+  password = "",
+  database = "customers" # you must be sure about data base
+)
+
+mycursor = mydb.cursor()
+
+# Email =  str(raw_input("enter your email "))
+# password = (raw_input("enter Password "))
+myNumber = raw_input(str("Enter your email to show to your info: "))
+# 1- INSERT 2- SELECT 3- UPDATE 4- DELETE
+mycursor.execute("SELECT * FROM accounts WHERE PhoneNumber = " + myNumber)
+
+results = mycursor.fetchall()
+
+for x in results:
+    print(x)

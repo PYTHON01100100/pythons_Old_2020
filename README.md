@@ -36,4 +36,5 @@
 #  Asabeneh : https://github.com/Asabeneh/python-lesson-Dec-2020
 # Asabeneh : https://github.com/Asabeneh/Python-for-Everyone
 # TheAlgorithms : https://github.com/TheAlgorithms/Python
-# : 
+# 30-Days-Of-Python :   https://github.com/Asabeneh/30-Days-Of-Python
+# python_for_microscopists : https://github.com/bnsreenu/python_for_microscopists
